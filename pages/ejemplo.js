@@ -25,6 +25,8 @@ export default function CollectionVideo() {
         controls
         src={videoIdOrSignedUrl}
         autoplay
+        startTime="5"
+        onCanPlayThrough
         muted
         loop
         width="100%"
